@@ -18,6 +18,6 @@ When button pressed twice the counter is two
 Reset button is working
     Go To  ${HOME_URL}
     Click Button  Paina
-    Page Should Contain  nappia painettu 1 kertaa
+    Page Should Contain  nappia painettu 3 kertaa
     Click Button  Nollaa
     Page Should Contain  nappia painettu 0 kertaa
