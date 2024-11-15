@@ -21,3 +21,13 @@ Reset button is working
     Page Should Contain  nappia painettu 3 kertaa
     Click Button  Nollaa
     Page Should Contain  nappia painettu 0 kertaa
+
+Setting the value is working
+    Go To  ${HOME_URL}
+    Input Text  value  10
+    Click Button  set_value
+    Page Should Contain  nappia painettu 10 kertaa
+    Input Text  value  -12
+    Click Button  set_value
+    Page Should Contain  nappia painettu -12 kertaa
+    
